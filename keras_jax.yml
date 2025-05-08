@@ -1,0 +1,12 @@
+name: keras_jax
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - ipympl
+  - jax
+  - keras>=3
+  - polars
+  - pydantic
+  - pydot
+  - seaborn
