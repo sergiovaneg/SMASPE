@@ -53,13 +53,13 @@ Trial no. 3/5...
 Trial no. 4/5...
 Trial no. 5/5...
 Trained with MSE: 
-MAE: 0.198, MSE: 0.14, MAAPE: 0.947, MASPE: 0.933, SMASPE (tight): 1.11, SMASPE (loose): 0.71, median_epochs: 5.76e+02
+MAE: 0.179, MSE: 0.143, MAAPE: 1.13, MASPE: 1.15, SMASPE (tight): 1.28, SMASPE (loose): 0.649, median_epochs: 7.74e+02
 Trained with MAAPE: 
-MAE: 0.157, MSE: 0.167, MAAPE: 0.786, MASPE: 0.745, SMASPE (tight): 0.904, SMASPE (loose): 0.377, median_epochs: 6.15e+02
+MAE: 0.185, MSE: 0.132, MAAPE: 0.901, MASPE: 0.866, SMASPE (tight): 1.02, SMASPE (loose): 0.55, median_epochs: 8.55e+02
 Trained with MASPE: 
-MAE: 0.108, MSE: 0.0942, MAAPE: 0.708, MASPE: 0.633, SMASPE (tight): 0.751, SMASPE (loose): 0.273, median_epochs: 2e+03
+MAE: 0.123, MSE: 0.121, MAAPE: 0.726, MASPE: 0.655, SMASPE (tight): 0.786, SMASPE (loose): 0.243, median_epochs: 1.05e+03
 Trained with SMASPE (tight): 
-MAE: 0.106, MSE: 0.0921, MAAPE: 0.713, MASPE: 0.64, SMASPE (tight): 0.754, SMASPE (loose): 0.263, median_epochs: 1.5e+03
+MAE: 0.109, MSE: 0.0979, MAAPE: 0.729, MASPE: 0.661, SMASPE (tight): 0.779, SMASPE (loose): 0.223, median_epochs: 9.74e+02
 Trained with SMASPE (loose): 
-MAE: 0.0974, MSE: 0.0833, MAAPE: 0.678, MASPE: 0.587, SMASPE (tight): 0.692, SMASPE (loose): 0.233, median_epochs: 1.32e+03
+MAE: 0.107, MSE: 0.0925, MAAPE: 0.715, MASPE: 0.641, SMASPE (tight): 0.756, SMASPE (loose): 0.215, median_epochs: 9.04e+02
 

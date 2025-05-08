@@ -30,26 +30,26 @@ STEP: int = 10
 
 
 def aspe(y: np.ndarray, yhat: np.ndarray) -> jnp.ndarray:
-  return jnp.arctan(
-      jnp.square(
-          (y - yhat) / jnp.where(
-              jnp.abs(y) < THR,
-              THR,
-              jnp.abs(y)
-          )
-      )
-  )
+    return jnp.arctan(
+        jnp.square(
+            (y - yhat) / jnp.where(
+                jnp.abs(y) < THR,
+                THR,
+                jnp.abs(y)
+            )
+        )
+    )
 
 
 def sym_aspe(y: np.ndarray, yhat: np.ndarray) -> jnp.ndarray:
-  return aspe(y, yhat) + aspe(1. - y, 1. - yhat)
+    return aspe(y, yhat) + aspe(1. - y, 1. - yhat)
 
 
 grad_sym_aspe = jax.vmap(jax.vmap(jax.value_and_grad(sym_aspe, 1)))
 
 
 def arctan_square(a: np.ndarray) -> jnp.ndarray:
-  return jnp.arctan(jnp.square(a))
+    return jnp.arctan(jnp.square(a))
 
 
 dx_arctan_square = jax.vmap(
@@ -61,7 +61,7 @@ dx2_arctan_square = jax.vmap(
 
 
 def arctan_abs(a: np.ndarray) -> jnp.ndarray:
-  return jnp.arctan(jnp.abs(a))
+    return jnp.arctan(jnp.abs(a))
 
 
 dx_arctan_abs = jax.vmap(
@@ -96,13 +96,6 @@ w_idx = np.argmax(
 fig = plt.figure(figsize=(12, 6))
 plt.plot(
     np.arange(w_idx, w_idx + W),
-    z[w_idx:w_idx + W],
-    label=r"$y$",
-    linewidth=1,
-    linestyle="--"
-)
-plt.plot(
-    np.arange(w_idx, w_idx + W),
     z_noisy[w_idx:w_idx + W],
     label=r"$\hat{y}^{(1)}$",
     linewidth=2
@@ -112,6 +105,13 @@ plt.plot(
     z_ma[w_idx:w_idx + W],
     label=r"$\hat{y}^{(2)}$",
     linewidth=2
+)
+plt.plot(
+    np.arange(w_idx, w_idx + W),
+    z[w_idx:w_idx + W],
+    label=r"$y$",
+    linewidth=3,
+    linestyle="--"
 )
 plt.legend(loc="upper right")
 plt.autoscale(axis="x", tight=True)
@@ -126,22 +126,26 @@ fig, axes = plt.subplots(2, 1, sharex=True, figsize=(12, 6))
 axes[0].plot(
     np.arange(w_idx, w_idx + W),
     ((z - z_noisy)**2)[w_idx:w_idx + W],
-    label=r"$(y-\hat{y}^{(1)})^2$"
+    label=r"$(y-\hat{y}^{(1)})^2$",
+    linewidth=2
 )
 axes[0].plot(
     np.arange(w_idx, w_idx + W),
     ((z - z_ma)**2)[w_idx:w_idx + W],
-    label=r"$(y-\hat{y}^{(2)})^2$"
+    label=r"$(y-\hat{y}^{(2)})^2$",
+    linewidth=2
 )
 axes[1].plot(
     np.arange(w_idx, w_idx + W),
     (np.abs(z - z_noisy) / np.abs(z))[w_idx:w_idx + W],
-    label=r"$\left| \bar{\delta}^{(1)} \right|$"
+    label=r"$\left| \bar{\delta}^{(1)} \right|$",
+    linewidth=2
 )
 axes[1].plot(
     np.arange(w_idx, w_idx + W),
     (np.abs(z - z_ma) / np.abs(z))[w_idx:w_idx + W],
-    label=r"$\left| \bar{\delta}^{(2)} \right|$"
+    label=r"$\left| \bar{\delta}^{(2)} \right|$",
+    linewidth=2
 )
 axes[0].legend(loc="upper right")
 axes[1].legend(loc="upper right")
@@ -167,19 +171,22 @@ fig = plt.figure(figsize=(12, 6))
 plt.plot(
     x,
     arctan_abs(x),
-    label=r"$\arctan{\left| \bar{\delta} \right|}$"
+    label=r"$\arctan{\left| \bar{\delta} \right|}$",
+    linewidth=2
 )
 plt.plot(
     x,
     -dx_arctan_abs(x),
     label=r"$-\frac{d}{d \bar{\delta}}" +
-    r"\left( \arctan{\left| \bar{\delta} \right|} \right)$"
+    r"\left( \arctan{\left| \bar{\delta} \right|} \right)$",
+    linewidth=2
 )
 plt.plot(
     x,
     dx2_arctan_abs(x),
     label=r"$\frac{d^2}{d \bar{\delta}^2}" +
-    r"\left( \arctan{\left| \bar{\delta} \right|} \right)$"
+    r"\left( \arctan{\left| \bar{\delta} \right|} \right)$",
+    linewidth=2
 )
 plt.legend(loc="upper right")
 plt.xlabel(r"$\bar{\delta}$")
@@ -194,18 +201,22 @@ fig = plt.figure(figsize=(12, 6))
 plt.plot(
     x,
     arctan_square(x),
-    label=r"$\arctan{\left( \bar{\delta}^2 \right)}$")
+    label=r"$\arctan{\left( \bar{\delta}^2 \right)}$",
+    linewidth=2
+)
 plt.plot(
     x,
     -dx_arctan_square(x),
     label=r"$-\frac{d}{d \bar{\delta}}" +
-    r"\left( \arctan{\left( \bar{\delta}^2 \right)} \right)$"
+    r"\left( \arctan{\left( \bar{\delta}^2 \right)} \right)$",
+    linewidth=2
 )
 plt.plot(
     x,
     dx2_arctan_square(x),
     label=r"$\frac{d^2}{d \bar{\delta}^2}" +
-    r"\left( \arctan{\left( \bar{\delta}^2 \right)} \right)$"
+    r"\left( \arctan{\left( \bar{\delta}^2 \right)} \right)$",
+    linewidth=2
 )
 plt.legend(loc="upper right")
 plt.xlabel(r"$\bar{\delta}$")
