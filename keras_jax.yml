@@ -2,15 +2,10 @@ name: keras_jax
 channels:
     - conda-forge
 dependencies:
-    - cmaes
-    - dask
     - ipykernel
     - ipympl
     - jax
-    - jaxlib=*=*cuda*
     - keras>=3
-    - optuna
-    - optuna-dashboard
     - polars
     - pydantic
     - pydot
