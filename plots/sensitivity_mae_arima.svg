@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="432pt" viewBox="0 0 864 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2025-05-06T12:07:40.934334</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 864 432 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 97.68 346.74 
+L 808.41 346.74 
+L 808.41 44.88 
+L 97.68 44.88 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 97.68 346.74 
+L 97.68 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_1">
+      <!-- −0.20 -->
+      <g style="fill: #262626" transform="translate(75.49025 368.24) scale(0.176 -0.176)">
+       <defs>
+        <path id="Roboto-Regular-2212" d="M 3134 2509 
+L 3134 2034 
+L 525 2034 
+L 525 2509 
+L 3134 2509 
+z
+" transform="scale(0.015625)"/>
+        <path id="Roboto-Regular-30" d="M 3234 1944 
+Q 3234 825 2848 381 
+Q 2463 -63 1800 -63 
+Q 1156 -63 764 368 
+Q 372 800 359 1872 
+L 359 2638 
+Q 359 3753 750 4183 
+Q 1141 4613 1794 4613 
+Q 2447 4613 2834 4195 
+Q 3222 3778 3234 2709 
+L 3234 1944 
+z
+M 2653 2734 
+Q 2653 3503 2434 3822 
+Q 2216 4141 1794 4141 
+Q 1388 4141 1167 3831 
+Q 947 3522 941 2778 
+L 941 1850 
+Q 941 1088 1164 750 
+Q 1388 413 1800 413 
+Q 2222 413 2436 745 
+Q 2650 1078 2653 1825 
+L 2653 2734 
+z
+" transform="scale(0.015625)"/>
+        <path id="Roboto-Regular-2e" d="M 450 306 
+Q 450 453 542 554 
+Q 634 656 809 656 
+Q 984 656 1076 554 
+Q 1169 453 1169 306 
+Q 1169 163 1076 62 
+Q 984 -38 809 -38 
+Q 634 -38 542 62 
+Q 450 163 450 306 
+z
+" transform="scale(0.015625)"/>
+        <path id="Roboto-Regular-32" d="M 3359 475 
+L 3359 0 
+L 381 0 
+L 381 416 
+L 1925 2134 
+Q 2306 2566 2439 2819 
+Q 2572 3072 2572 3328 
+Q 2572 3663 2364 3900 
+Q 2156 4138 1778 4138 
+Q 1322 4138 1097 3878 
+Q 872 3619 872 3213 
+L 294 3213 
+Q 294 3788 672 4200 
+Q 1050 4613 1778 4613 
+Q 2422 4613 2786 4278 
+Q 3150 3944 3150 3397 
+Q 3150 2997 2903 2592 
+Q 2656 2188 2297 1797 
+L 1078 475 
+L 3359 475 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Roboto-Regular-2212"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(57.177734 0)"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(113.378906 0)"/>
+       <use xlink:href="#Roboto-Regular-32" transform="translate(139.746094 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(195.947266 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <path d="M 186.52125 346.74 
+L 186.52125 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_2">
+      <!-- −0.15 -->
+      <g style="fill: #262626" transform="translate(164.3315 368.24) scale(0.176 -0.176)">
+       <defs>
+        <path id="Roboto-Regular-31" d="M 2278 4575 
+L 2278 0 
+L 1700 0 
+L 1700 3853 
+L 534 3428 
+L 534 3950 
+L 2188 4575 
+L 2278 4575 
+z
+" transform="scale(0.015625)"/>
+        <path id="Roboto-Regular-35" d="M 1109 2166 
+L 647 2284 
+L 875 4550 
+L 3209 4550 
+L 3209 4016 
+L 1366 4016 
+L 1228 2778 
+Q 1572 2975 1988 2975 
+Q 2616 2975 2980 2561 
+Q 3344 2147 3344 1450 
+Q 3344 797 2987 367 
+Q 2631 -63 1903 -63 
+Q 1350 -63 947 248 
+Q 544 559 481 1197 
+L 1031 1197 
+Q 1141 413 1903 413 
+Q 2313 413 2538 691 
+Q 2763 969 2763 1444 
+Q 2763 1872 2527 2164 
+Q 2291 2456 1853 2456 
+Q 1563 2456 1413 2378 
+Q 1263 2300 1109 2166 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Roboto-Regular-2212"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(57.177734 0)"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(113.378906 0)"/>
+       <use xlink:href="#Roboto-Regular-31" transform="translate(139.746094 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(195.947266 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <path d="M 275.3625 346.74 
+L 275.3625 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_3">
+      <!-- −0.10 -->
+      <g style="fill: #262626" transform="translate(253.17275 368.24) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-2212"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(57.177734 0)"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(113.378906 0)"/>
+       <use xlink:href="#Roboto-Regular-31" transform="translate(139.746094 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(195.947266 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <path d="M 364.20375 346.74 
+L 364.20375 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_4">
+      <!-- −0.05 -->
+      <g style="fill: #262626" transform="translate(342.014 368.24) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-2212"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(57.177734 0)"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(113.378906 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(139.746094 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(195.947266 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <path d="M 453.045 346.74 
+L 453.045 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_5">
+      <!-- 0.00 -->
+      <g style="fill: #262626" transform="translate(435.886375 368.24) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-30"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(82.568359 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(138.769531 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <path d="M 541.88625 346.74 
+L 541.88625 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_6">
+      <!-- 0.05 -->
+      <g style="fill: #262626" transform="translate(524.727625 368.24) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-30"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(82.568359 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(138.769531 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <path d="M 630.7275 346.74 
+L 630.7275 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_7">
+      <!-- 0.10 -->
+      <g style="fill: #262626" transform="translate(613.568875 368.24) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-30"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-31" transform="translate(82.568359 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(138.769531 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <path d="M 719.56875 346.74 
+L 719.56875 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_8">
+      <!-- 0.15 -->
+      <g style="fill: #262626" transform="translate(702.410125 368.24) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-30"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-31" transform="translate(82.568359 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(138.769531 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <path d="M 808.41 346.74 
+L 808.41 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_9">
+      <!-- 0.20 -->
+      <g style="fill: #262626" transform="translate(791.251375 368.24) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-30"/>
+       <use xlink:href="#Roboto-Regular-2e" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-32" transform="translate(82.568359 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(138.769531 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_10">
+     <!-- $\gamma$ -->
+     <g style="fill: #262626" transform="translate(447.285 390.083) scale(0.192 -0.192)">
+      <defs>
+       <path id="DejaVuSans-Oblique-3b3" d="M 1491 2950 
+L 1838 788 
+L 3456 3500 
+L 4066 3500 
+L 1972 0 
+L 1713 -1331 
+L 1138 -1331 
+L 1397 0 
+L 988 2613 
+Q 925 3006 628 3006 
+L 475 3006 
+L 569 3500 
+L 788 3500 
+Q 1403 3500 1491 2950 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-Oblique-3b3" transform="translate(0 0.3125)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_10">
+      <path d="M 97.68 346.74 
+L 808.41 346.74 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_11">
+      <!-- 200 -->
+      <g style="fill: #262626" transform="translate(59.70475 353.34) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-32"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <path d="M 97.68 309.0075 
+L 808.41 309.0075 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_12">
+      <!-- 225 -->
+      <g style="fill: #262626" transform="translate(59.70475 315.6075) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-32"/>
+       <use xlink:href="#Roboto-Regular-32" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <path d="M 97.68 271.275 
+L 808.41 271.275 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_13">
+      <!-- 250 -->
+      <g style="fill: #262626" transform="translate(59.70475 277.875) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-32"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <path d="M 97.68 233.5425 
+L 808.41 233.5425 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_14">
+      <!-- 275 -->
+      <g style="fill: #262626" transform="translate(59.70475 240.1425) scale(0.176 -0.176)">
+       <defs>
+        <path id="Roboto-Regular-37" d="M 3319 4550 
+L 3319 4225 
+L 1434 0 
+L 825 0 
+L 2706 4075 
+L 244 4075 
+L 244 4550 
+L 3319 4550 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Roboto-Regular-32"/>
+       <use xlink:href="#Roboto-Regular-37" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <path d="M 97.68 195.81 
+L 808.41 195.81 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_15">
+      <!-- 300 -->
+      <g style="fill: #262626" transform="translate(59.70475 202.41) scale(0.176 -0.176)">
+       <defs>
+        <path id="Roboto-Regular-33" d="M 1222 2084 
+L 1222 2559 
+L 1647 2559 
+Q 2094 2563 2312 2784 
+Q 2531 3006 2531 3338 
+Q 2531 4138 1738 4138 
+Q 1369 4138 1141 3927 
+Q 913 3716 913 3359 
+L 334 3359 
+Q 334 3881 720 4247 
+Q 1106 4613 1738 4613 
+Q 2353 4613 2733 4286 
+Q 3113 3959 3113 3325 
+Q 3113 3072 2942 2784 
+Q 2772 2497 2397 2338 
+Q 2850 2191 3015 1884 
+Q 3181 1578 3181 1269 
+Q 3181 631 2768 284 
+Q 2356 -63 1741 -63 
+Q 1147 -63 722 267 
+Q 297 597 297 1203 
+L 875 1203 
+Q 875 844 1108 628 
+Q 1341 413 1741 413 
+Q 2138 413 2369 622 
+Q 2600 831 2600 1256 
+Q 2600 1681 2337 1882 
+Q 2075 2084 1634 2084 
+L 1222 2084 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Roboto-Regular-33"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <path d="M 97.68 158.0775 
+L 808.41 158.0775 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_16">
+      <!-- 325 -->
+      <g style="fill: #262626" transform="translate(59.70475 164.6775) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-33"/>
+       <use xlink:href="#Roboto-Regular-32" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <path d="M 97.68 120.345 
+L 808.41 120.345 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_17">
+      <!-- 350 -->
+      <g style="fill: #262626" transform="translate(59.70475 126.945) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-33"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_17">
+      <path d="M 97.68 82.6125 
+L 808.41 82.6125 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_18">
+      <!-- 375 -->
+      <g style="fill: #262626" transform="translate(59.70475 89.2125) scale(0.176 -0.176)">
+       <use xlink:href="#Roboto-Regular-33"/>
+       <use xlink:href="#Roboto-Regular-37" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-35" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <path d="M 97.68 44.88 
+L 808.41 44.88 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_19">
+      <!-- 400 -->
+      <g style="fill: #262626" transform="translate(59.70475 51.48) scale(0.176 -0.176)">
+       <defs>
+        <path id="Roboto-Regular-34" d="M 166 1397 
+L 2203 4550 
+L 2819 4550 
+L 2819 1531 
+L 3453 1531 
+L 3453 1056 
+L 2819 1056 
+L 2819 0 
+L 2241 0 
+L 2241 1056 
+L 166 1056 
+L 166 1397 
+z
+M 822 1531 
+L 2241 1531 
+L 2241 3766 
+L 2169 3638 
+L 822 1531 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Roboto-Regular-34"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(56.201172 0)"/>
+       <use xlink:href="#Roboto-Regular-30" transform="translate(112.402344 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_20">
+     <!-- MAE -->
+     <g style="fill: #262626" transform="translate(51.80475 215.9115) rotate(-90) scale(0.192 -0.192)">
+      <defs>
+       <path id="Roboto-Regular-4d" d="M 2794 841 
+L 4281 4550 
+L 5056 4550 
+L 5056 0 
+L 4456 0 
+L 4456 1775 
+L 4516 3678 
+L 3019 0 
+L 2563 0 
+L 1069 3684 
+L 1128 1775 
+L 1128 0 
+L 528 0 
+L 528 4550 
+L 1303 4550 
+L 2794 841 
+z
+" transform="scale(0.015625)"/>
+       <path id="Roboto-Regular-41" d="M 91 0 
+L 1825 4550 
+L 2353 4550 
+L 4094 0 
+L 3475 0 
+L 3041 1191 
+L 1138 1191 
+L 706 0 
+L 91 0 
+z
+M 1319 1684 
+L 2863 1684 
+L 2091 3806 
+L 1319 1684 
+z
+" transform="scale(0.015625)"/>
+       <path id="Roboto-Regular-45" d="M 528 0 
+L 528 4550 
+L 3388 4550 
+L 3388 4056 
+L 1131 4056 
+L 1131 2594 
+L 3100 2594 
+L 3100 2103 
+L 1131 2103 
+L 1131 491 
+L 3419 491 
+L 3419 0 
+L 528 0 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#Roboto-Regular-4d"/>
+      <use xlink:href="#Roboto-Regular-41" transform="translate(87.304688 0)"/>
+      <use xlink:href="#Roboto-Regular-45" transform="translate(152.539062 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_19">
+    <path d="M 97.68 339.939721 
+L 106.564125 339.651269 
+L 107.328161 -1 
+M 123.56968 -1 
+L 124.332375 338.997192 
+L 133.2165 251.144214 
+L 142.100625 338.769263 
+L 150.98475 338.510105 
+L 159.868875 338.333326 
+L 168.753 332.507266 
+L 168.868379 -1 
+M 186.404148 -1 
+L 186.52125 337.556406 
+L 195.405375 334.172756 
+L 204.2895 329.960898 
+L 213.173625 331.508866 
+L 213.173631 -1 
+M 230.941869 -1 
+L 230.941875 335.271959 
+L 239.826 328.499431 
+L 248.710125 334.099935 
+L 257.59425 330.08655 
+L 266.478375 314.947237 
+L 275.3625 327.282475 
+L 284.246625 330.936245 
+L 284.78825 -1 
+M 301.478576 -1 
+L 302.014875 327.462571 
+L 310.899 325.606507 
+L 319.783125 282.856902 
+L 328.66725 308.400957 
+L 337.551375 319.224086 
+L 346.4355 320.730415 
+L 355.319625 317.79622 
+L 364.20375 283.020692 
+L 364.603082 -1 
+M 381.53437 -1 
+L 381.972 311.671598 
+L 381.978335 -1 
+M 406.945141 -1 
+L 408.624375 246.07156 
+L 412.811865 -1 
+M 432.426328 -1 
+L 435.27675 257.214485 
+L 435.377117 -1 
+M 461.90221 -1 
+L 461.929125 254.541244 
+L 470.81325 318.360296 
+L 479.697375 308.304806 
+L 488.5815 322.039814 
+L 497.465625 325.509849 
+L 506.34975 324.15211 
+L 515.233875 326.024111 
+L 524.118 329.579428 
+L 533.002125 329.690939 
+L 541.88625 330.635334 
+L 550.770375 330.932722 
+L 559.6545 331.534843 
+L 568.538625 332.036093 
+L 577.42275 332.511964 
+L 586.306875 332.966394 
+L 595.191 333.295125 
+L 604.075125 333.549631 
+L 612.95925 333.915326 
+L 621.843375 334.069581 
+L 630.7275 334.265222 
+L 639.611625 334.559823 
+L 648.49575 334.813776 
+L 657.379875 334.984198 
+L 666.264 335.251278 
+L 675.148125 335.328982 
+L 684.03225 335.540882 
+L 684.314922 -1 
+M 701.517435 -1 
+L 701.8005 336.023684 
+L 710.684625 336.051574 
+L 719.56875 336.291686 
+L 728.452875 336.302809 
+L 737.337 336.415311 
+L 746.221125 336.694413 
+L 755.10525 336.734094 
+L 763.989375 336.828149 
+L 772.8735 336.893577 
+L 781.757625 337.002279 
+L 790.64175 337.066648 
+L 799.525875 337.05564 
+L 808.41 337.177331 
+" clip-path="url(#pdf27807e95)" style="fill: none; stroke: #4c72b0; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 97.68 346.74 
+L 97.68 44.88 
+" style="fill: none; stroke: #cccccc; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 808.41 346.74 
+L 808.41 44.88 
+" style="fill: none; stroke: #cccccc; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 97.68 346.74 
+L 808.41 346.74 
+" style="fill: none; stroke: #cccccc; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 97.68 44.88 
+L 808.41 44.88 
+" style="fill: none; stroke: #cccccc; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdf27807e95">
+   <rect x="97.68" y="44.88" width="710.73" height="301.86"/>
+  </clipPath>
+ </defs>
+</svg>
