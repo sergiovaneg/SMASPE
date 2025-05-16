@@ -65,7 +65,7 @@ for all $n \ge 1$.
 
 It is easy to see that $q_n$ is given by $q_1$ elevated to a non-negative power of 2; namely, $$ q_n(x) = q_1(x)^{2^{n-1}} = (x^4+1)^{2^{n-1}} \quad \forall n \in \mathbb{Z}^+ .$$
 
-Since $\nexists x \in (-\infty, \infty), n \in \mathbb{Z}^+$ for which $q_n(x)$ is zero, there is no finite value of $x$ for which the $n^{th}$ derivative is not finite.
+Since $\nexists x \in (-\infty, \infty), n \in \mathbb{Z}^+$ for which $q_n(x)$ is zero, there is no finite value of $x$ for which the $n$-th derivative is not finite.
 
 Furthermore, the degree dominating these polynomials can also be expressed as a function of their predecessors: let $P_n$ and $Q_n$ denote the maximum degrees of the polynomials $p_n$ and $q_n$, respectively; then, using the polynomial recursions defined earlier, these can be rewritten as a recursive system of equations of the form
 $$
@@ -136,4 +136,4 @@ The first figure above shows the expected behaviour of the convergence speed as 
 
 In terms of regression accuracy, both Figures show how negative values of $\gamma$ perform inconsistently due to the increased number of collisions between the symmetry boundaries and target samples in the training dataset. Indeed, despite the arctangent function preventing infinite gradients, division by 0 is still undefined, introducing pathological behaviour around $y=0$ which is magnified by floating-point arithmetic. Therefore, even if mathematically valid, using negative values for the relaxation coefficient is strongly discouraged.
 
-Finally, regarding the recommended value for $\gamma$, it is worth pointing out the trend differences between the last two Figures: for the most part, the ARIMA model converges to similar solutions for $\gamma \ge 0.05$, whereas the HW model does not stabilize until $\gamma \ge 0.1$, degrading once again as it approaches $\gamma = 0.2$. For the sake of experimental consistency, and to avoid vanishing gradients, $\gamma$ was set to $0.1$ for all experiments in the main manuscript. However, this coefficient should be carefully adjusted for each application, and even tuned using an auxiliary metric (such as the MAE in this case) as a *hyperoptimization* target.
+Finally, regarding the recommended value for $\gamma$, it is worth pointing out the trend differences between the last two Figures: for the most part, the ARIMA model converges to similar solutions for $\gamma \ge 0.05$, whereas the HW model does not stabilize until $\gamma \ge 0.1$, degrading once again as it approaches $\gamma = 0.2$. For the sake of experimental consistency, and to avoid vanishing gradients, $\gamma$ was set to $0.1$ for all experiments in the main manuscript. However, this coefficient should be adjusted for each application, and even tuned using an auxiliary metric (such as the MAE in this case) as a *hyperoptimization* target.
