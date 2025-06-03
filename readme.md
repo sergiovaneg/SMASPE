@@ -11,6 +11,8 @@ conda env create -f environment.yml
 conda activate keras_jax
 ```
 
+Due to their relatively small size, datasets are included in this repository. However, both the SKU and PV Generation datasets can be found in [Kaggle](https://www.kaggle.com/datasets/pearlveera/weekly-sku-level-product-sales-transactions) and [Etsin](https://etsin.fairdata.fi/dataset/81cb99d1-0445-47bd-8fb2-26507eaa6cb9) respectively.
+
 ## Contents
 
 - Libraries
