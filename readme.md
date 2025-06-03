@@ -27,7 +27,7 @@ conda activate keras_jax
 
 ### Proof: Smoothness of the Arctangent of a Square
 
-Let $f(x) \coloneqq \arctan{x^2}$. Then, its first derivative is given by
+Let $f(x) = \arctan{x^2}$. Then, its first derivative is given by
 ```math
 \frac{df}{dx}(x) = \left. \frac{d}{du}\left(\arctan{u}\right) \right|_{u=x^2} \frac{d}{dx}\left( x^2 \right)  = \frac{2x}{x^4+1} = \frac{p_1(x)}{q_1(x)},
 ```
@@ -112,7 +112,7 @@ This emerging pattern can be formally expressed as
 \end{cases}
 ```
 
-Finally, using this expanded form and L'Hôpital's rule, the limit of the $n$th order derivative as $x \rightarrow \pm \infty$ is calculated as
+Finally, using this expanded form and L'Hôpital's rule, the limit of the $n$-th order derivative as $x \rightarrow \pm \infty$ is calculated as
 ```math
   \begin{split}
       \lim_{x \rightarrow \pm \infty}\frac{d^n f}{dx^n}(x)
