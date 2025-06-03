@@ -28,9 +28,11 @@ conda activate keras_jax
 ### Proof: Smoothness of the Arctangent of a Square
 
 Let $f(x) = \arctan{x^2}$. Then, its first derivative is given by
+
 ```math
 \frac{df}{dx}(x) = \left. \frac{d}{du}\left(\arctan{u}\right) \right|_{u=x^2} \frac{d}{dx}\left( x^2 \right)  = \frac{2x}{x^4+1} = \frac{p_1(x)}{q_1(x)},
 ```
+
 where $p_1$ and $q_1$ are the polynomials defining the quotient that defines the first-order derivative. From the above expression, the following can be stated:
 
 - Since $x^4+1 \neq 0 \quad \forall x \in  (-\infty, \infty)$, there is no finite value of $x$ for which the first derivative is not finite.
@@ -39,6 +41,7 @@ where $p_1$ and $q_1$ are the polynomials defining the quotient that defines the
 Thus, $\arctan{x^2}$ is proven to be $C^1 \, \forall x \in \mathbb{R}$.
 
 Now, using the quotient rule, the second derivative can be written in terms of the polynomials $p_1$ and $q_1$ to form a new quotient; namely
+
 ```math
 \begin{split}
     \frac{d^2f}{dx^2}(x)
@@ -51,6 +54,7 @@ Now, using the quotient rule, the second derivative can be written in terms of t
 ```
 
 By induction, the derivative of degree $n+1$ can be written as a recursion of the form
+
 ```math
 \begin{split}
     \frac{d^{n+1}f}{dx^{n+1}}(x)
@@ -61,9 +65,11 @@ By induction, the derivative of degree $n+1$ can be written as a recursion of th
     = \frac{p_{n+1}(x)}{q_{n+1}(x)}
 \end{split}
 ```
+
 for all $n \ge 1$.
 
 It is easy to see that $q_n$ is given by $q_1$ elevated to a non-negative power of 2; namely,
+
 ```math
 q_n(x) = q_1(x)^{2^{n-1}} = (x^4+1)^{2^{n-1}} \quad \forall n \in \mathbb{Z}^+ .
 ```
@@ -71,6 +77,7 @@ q_n(x) = q_1(x)^{2^{n-1}} = (x^4+1)^{2^{n-1}} \quad \forall n \in \mathbb{Z}^+ .
 Since $\nexists x \in (-\infty, \infty), n \in \mathbb{Z}^+$ for which $q_n(x)$ is zero, there is no finite value of $x$ for which the $n$-th derivative is not finite.
 
 Furthermore, the degree dominating these polynomials can also be expressed as a function of their predecessors: let $P_n$ and $Q_n$ denote the maximum degrees of the polynomials $p_n$ and $q_n$, respectively; then, using the polynomial recursions defined earlier, these can be rewritten as a recursive system of equations of the form
+
 ```math
 \begin{cases}
     P_{n+1} & = P_n + Q_n - 1,
@@ -80,6 +87,7 @@ Furthermore, the degree dominating these polynomials can also be expressed as a 
 ```
 
 To express this system of equations purely in terms of $n$, the first few terms of the recursion are expanded as
+
 ```math
 \begin{split}
     n = 2 \implies & \begin{cases}
@@ -102,6 +110,7 @@ To express this system of equations purely in terms of $n$, the first few terms 
 ```
 
 This emerging pattern can be formally expressed as
+
 ```math
 \begin{cases}
     P_{n+1} & = \left( \sum_{k=0}^{n}{2^k} - 2^1 \right) - (n-1)
@@ -113,6 +122,7 @@ This emerging pattern can be formally expressed as
 ```
 
 Finally, using this expanded form and L'Hôpital's rule, the limit of the $n$-th order derivative as $x \rightarrow \pm \infty$ is calculated as
+
 ```math
   \begin{split}
       \lim_{x \rightarrow \pm \infty}\frac{d^n f}{dx^n}(x)
